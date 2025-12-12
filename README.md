@@ -1,58 +1,71 @@
-# Data-Anlaysis-UCI-Retail-II-dataset
-📊 Retail Sales Analysis — Portfolio Project
 
-Dashboard interaktif + analisis mendalam menggunakan dataset retail.
+---
 
-🔥 Highlights Project
+## 🧹 Data Preparation & Cleaning
 
-Data cleaning & feature engineering (Python)
+Key preprocessing steps performed in the notebook:
 
-Dashboard end-to-end (Streamlit)
+- Removed duplicates
+- Converted date columns to datetime
+- Separated returned/cancelled transactions
+- Created new features:
+  - `total_price`
+  - `season`
+  - `period` (Month)
+  - `year`
+  - `items_per_invoice`
+- Filtered invalid quantities (≤ 0)
+- Ensured consistent data types & indexing
 
-Market, Product, Seasonality & Customer Insights
+---
 
-RFM Analysis
+## 📈 Dashboard Features
 
-Time-series revenue trend
+### 1️⃣ **KPI Overview**
+- Total Revenue  
+- Total Orders  
+- Average Order Value (AOV)  
+- Best Season  
+- Best Product  
 
-Data storytelling + rekomendasi bisnis
+### 2️⃣ **Market Analysis**
+- Revenue per Year  
+- Year-over-Year Growth  
+- Market Composition (Product Contribution %)  
+- Revenue by Category  
+- Market Health Metrics:
+  - Average Basket Size  
+  - Revenue per Customer  
+  - Items per Customer  
 
-🚀 Tools Used
+### 3️⃣ **Season Analysis**
+- Revenue per Season
+- Interactive Season Filter
+- Top Products by Season
+- Auto-generated insights
 
-Python (Pandas, NumPy)
+### 4️⃣ **Product Performance**
+- Top Revenue Products  
+- Most Frequently Purchased Products  
+- Highest AOV Products  
+- Detailed Product Statistics Table  
 
-Matplotlib / Seaborn
+---
 
-Streamlit
+## 📊 Insight Summary
 
-GitHub
+- **Autumn** is the season contributing the highest revenue (+32%).
+- Top performing product: **12 Egg House Painted Wood**, contributing ~**38%** of its season's revenue.
+- Revenue shows clear monthly seasonality patterns.
+- Certain product categories dominate revenue and require better inventory planning.
+- Basket size and revenue per customer give strong indicators of market health.
 
-Jupyter Notebook
+*(You can replace these with your own final insights)*
 
-🧹 Data Processing
+---
 
-Remove duplicate rows
+## 🌐 Live Dashboard
+> 🔗 *Add your deployed Streamlit link here once uploaded*
 
-Handle cancellation invoices
-
-Feature engineering:
-
-total_price
-
-season
-
-period
-
-dayname, month, dll.
-
-📈 Market Insights
-
-Revenue meningkat …
-
-Season paling menguntungkan: …
-
-Produk terbaik: …
-
-Tren bulanan stabil / meningkat / menurun
-
-🏗 Link Dashboard
+## 📘 Notebook (EDA & Feature Engineering)
+Link to the complete Jupyter notebook:  
