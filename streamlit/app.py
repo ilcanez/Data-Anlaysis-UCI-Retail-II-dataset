@@ -3,15 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
+import zipfile
 
 #header
 st.title("Sales Performance Dashboard")
 
-#load data
-df = pd.read_csv(r"C:\Users\LEGION\Documents\!DAMAR\PROJECT\!Pribadi Project\DASHBOARD PROJECT\UCI RETAIL\data\final_retail_clean.csv")
 
-
+file_id = "1dMzVIFdTfxUJJsmKQXb4fVsiN2I-PKKi"
+url = f"https://drive.google.com/uc?export=download&id={file_id}"
+df = pd.read_csv(url)
 
 
 # KPI Perhitungan Dasar
