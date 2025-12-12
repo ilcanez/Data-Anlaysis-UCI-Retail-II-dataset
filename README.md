@@ -1,46 +1,58 @@
 # Data-Anlaysis-UCI-Retail-II-dataset
-📝 1. About the Project
+📊 Retail Sales Analysis — Portfolio Project
 
-Analisis dataset transaksi retail 500.000+ baris untuk memahami performa penjualan, perilaku pelanggan, dan produk terbaik.
+Dashboard interaktif + analisis mendalam menggunakan dataset retail.
 
-🎯 2. Objectives
+🔥 Highlights Project
 
-Membersihkan data transaksi (returns, cancellation, missing values)
+Data cleaning & feature engineering (Python)
 
-Menghitung metrik bisnis: Revenue, AOV, Frequency
+Dashboard end-to-end (Streamlit)
 
-Menganalisis negara, produk, dan pelanggan paling profitable
+Market, Product, Seasonality & Customer Insights
 
-Memberikan rekomendasi bisnis berdasarkan data
+RFM Analysis
 
-🛠 3. Tools
+Time-series revenue trend
 
-Python
+Data storytelling + rekomendasi bisnis
 
-Pandas, NumPy
+🚀 Tools Used
 
-Matplotlib, Seaborn
+Python (Pandas, NumPy)
+
+Matplotlib / Seaborn
+
+Streamlit
+
+GitHub
 
 Jupyter Notebook
 
-Optional: Streamlit untuk dashboard
+🧹 Data Processing
 
-📂 4. Data Cleaning Summary
+Remove duplicate rows
 
-Menghapus invoice cancel (“C”)
+Handle cancellation invoices
 
-Menghapus quantity negatif
+Feature engineering:
 
-Menghapus duplicate
+total_price
 
-Total rows sebelum/ sesudah cleaning
+season
 
-📈 5. Key Insights
+period
 
-Negara dengan revenue tertinggi
+dayname, month, dll.
 
-Produk paling laku dan paling profitable
+📈 Market Insights
 
-Pola pembelian pelanggan
+Revenue meningkat …
 
-AOV dan customer value
+Season paling menguntungkan: …
+
+Produk terbaik: …
+
+Tren bulanan stabil / meningkat / menurun
+
+🏗 Link Dashboard
