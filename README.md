@@ -60,12 +60,11 @@ Key preprocessing steps performed in the notebook:
 - Certain product categories dominate revenue and require better inventory planning.
 - Basket size and revenue per customer give strong indicators of market health.
 
-*(You can replace these with your own final insights)*
 
 ---
 
 ## 🌐 Live Dashboard
-> 🔗 *Add your deployed Streamlit link here once uploaded*
+> 🔗 [*Add your deployed Streamlit link here once uploaded*](https://data-anlaysis-uci-retail-ii-dataset-lzlsdxu7rhsl4tntkvpx3w.streamlit.app/)
 
 ## 📘 Notebook (EDA & Feature Engineering)
-Link to the complete Jupyter notebook:  
+Link to the complete Jupyter notebook:  https://colab.research.google.com/drive/1ENwxlFXMoT4NphEWLO_QMsjhnv2uVCZf?usp=sharing
